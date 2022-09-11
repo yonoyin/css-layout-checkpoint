@@ -1,0 +1,330 @@
+*{
+    
+    font-family: Work Sans,Arial,sans-serif;
+}
+body{display: block;}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+  }
+  header a {
+    text-decoration: none;
+    color: #ababab;
+  }
+  header a:hover {
+    color: #00b39b;
+  }
+  
+  / dropdown   */
+  .dropbtn {
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    color: #ababab;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    color: #00b39b;
+  }
+
+.introduction{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+}
+.introduction-title{
+    color: #00b39b;
+    font-weight: 150;
+    text-align: center;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 2.125rem;
+
+}
+.introduction-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+p{
+    text-align: justify;
+    padding: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.patient{ font-weight: 200;
+    font-size:25px;
+    }
+.service-card-title{
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 400;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+.service-card{
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    padding:22px 0px; 
+    width: 300px;
+    flex-direction: column;
+    font-weight: 400;
+    height: 345px;
+    position: relative;
+    transition: all .2s ease 0s;
+}
+.service-cardforpatient{
+
+    background-color: #5dc6b0;
+} 
+.service-cardfordoctors{
+    background-color: #4293db;
+}
+.service-cardforclinic{
+    background-color:#1b2734;
+    
+}
+.stats-container {
+    background-color: #bee1e6;
+    display: flex;
+    height: 380px;
+    padding: 4%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.introduction-box {
+    width: 30%;
+}
+.introduction-box h1 {
+    color: rgb(0,177,159);
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 7%;
+}
+.introduction-box p {
+    opacity: 0.4;
+}
+.introduction-logo1 img {
+    height: 231px;
+    width: 100%;
+    margin-top: 5%;
+}
+.stats {
+    text-align: center;
+    width: 60%;
+    margin: 0 4% 0 19%;
+}
+.stats h1 {
+    color: rgb(0,197,155);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+    .stats-box {
+        height: 190px;
+        background-color: white;
+        border-radius: 7%;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .stats-box-colomn-2 {
+        display: flex;
+        margin-top:5%;
+    }
+    .stats-box-colomn-1 {
+        display: flex;
+    }
+    .box-1 p{
+        margin-right: 17%;
+        margin-top: -5%;
+        font-size: 12px;
+        font-weight: 100;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        letter-spacing: .1;
+
+        
+    }
+    .box-2 p{
+        margin-right: 17%;
+        margin-top: -5%;
+        font-size: 12px;
+        font-weight: 100;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        letter-spacing: .1;
+
+        
+
+
+    }
+    .box-3 p {
+        margin-right: 17%;
+        margin-top: -5%;
+        font-size: 12px;
+        font-weight: 100;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        letter-spacing: .1;
+
+    }
+    .box-4 p {
+        margin-right: 17%;
+        font-size: 12px;
+        font-weight: 100;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        letter-spacing: .1;
+    }
+    .offices-description {
+        text-align: center;
+    }
+    .offices-description h1 {
+        color: rgb(0,197,155);
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 12px;
+    }
+    .offices-description p {
+        text-align: center;
+        color: black;
+        opacity: .7;
+        font-size: 12;
+    }
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    padding: 10px;
+    display: block;
+}
+.country {
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding-right: 10px;
+    justify-content: space-around;
+
+    
+}
+.country img {
+    width: 300px;
+    
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.header2{
+    color: #333;
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 80px;
+
+}
+.header22{
+    font-weight: 300;
+    font-size: 500;
+    
+}
+
+.btn--small {
+    font-size: .800rem;
+    width: 90px;
+    height: 10px;
+    padding: 20px;
+    display: inline;
+    font-weight: 300;}
+   
+.btn{
+    display: inline;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+footer{
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
+footer p{
+    margin-bottom:10px;
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+}
